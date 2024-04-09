@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backround-video</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="goals-type menu" id="menu">
+        <video
+          poster=""
+          class="video hero__video_bg"
+          loop
+          autoplay
+          muted
+          src="./video/header-video.mp4"
+        ></video>
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__content_title">Type of stadion</h1>
+            <ul class="sitenav">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#power_shot">football stadium</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#free_kick">Stadium hockey</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#bicycle">stadium tennis</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="goals-type power">
+        <video
+          poster=""
+          muted
+          autoplay
+          loop
+          class="video power__video_bg"
+          src="./video/football__stadium.mp4"
+        ></video>
+        <div class="power__content" id="power_shot">
+          <h1 class="power__title">Football stadium</h1>
+
+          <a class="sitenav__link" href="#menu">Home</a>
+        </div>
+      </section>
+      <section class="goals-type free-kick">
+        <video
+          poster=""
+          autoplay
+          loop
+          muted
+          class="video free-kick__video_bg"
+          src="./video/hackey__stadium.mp4"
+        ></video>
+        <div class="free-kick__content" id="free_kick">
+          <h1 class="free-kick__title">Stadium hockey</h1>
+
+          <a class="sitenav__link" href="#menu">Home</a>
+        </div>
+      </section>
+      <section class="goals-type bicycle">
+        <video
+          poster="./images/ronaldo.jpg"
+          autoplay
+          loop
+          muted
+          class="video bicycle_goal"
+          src="./video/stadium__tennis.mp4"
+        ></video>
+        <div class="bicycle__content" id="bicycle">
+          <h1 class="bicycle__title">stadium tennis</h1>
+
+          <a class="sitenav__link" href="#menu">Home</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
